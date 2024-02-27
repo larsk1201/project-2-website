@@ -1,0 +1,14 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+    font-family: 'Open Sans';
+}
+
+@font-face
+{
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-VariableFont_wdth\,wght.ttf');
+}

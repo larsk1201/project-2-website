@@ -1,0 +1,63 @@
+@media screen and (max-width: 1200px) {
+    .login-container{
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        font-family: 'Open Sans';
+    }
+
+    input[type="submit"]{
+        width: 20vw;
+    }
+}
+@media screen and (min-width:1200px){
+.login-container{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;   
+    font-family: 'Open Sans';
+}
+
+    input[type="submit"]{
+        width: 10vw;
+    }
+}
+
+img{
+    width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form{
+    margin-top: 20vh;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"], input[type="password"]{
+    margin-bottom: 2vh;
+    border-radius: 15px;
+    height: 40px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: darkblue;
+}
+input[type="submit"]{
+    border-radius: 15px;
+    height: 40px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: darkblue;
+    background-color: var(--accent);
+    margin-left: auto;
+    margin-right: auto;
+    transition: .2s;
+}
+
+input[type="submit"]:hover{
+    transform: scale(1.2);
+}
